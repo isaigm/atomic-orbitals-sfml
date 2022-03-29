@@ -10,17 +10,17 @@ Cuanto más grande sea p para un cierto pixel (posición), su color va estar má
 Para calcular el valor de la función de onda, hay que diseccionarla un poco: 
 
 ![eq](images/eq.png)
-El primer término se puede aproximar por 4πr^2.
-
-Los polinomios de Laguerre se pueden calcular con:
+- El primer término se puede aproximar por 4πr^2.
+- Los polinomios de Laguerre se pueden calcular con:<br />
 ![laguerre](images/laguerre.PNG)
-
-Los armónicos esféricos se pueden calcular con:
+- Los armónicos esféricos se pueden calcular con:<br />
 ![sphericalharmonics](images/sphericalharmonics.PNG)
-
+<br />
 Donde el último término hace referencia a los polinomios asociados de Legendre, los cuales salen al vuelo con:
+<br />
 ![legendre](images/legendre.PNG)
 Donde el coeficiente binomial al final en realidad son la generalización, que se calcula con:
+<br />
 ![coef](images/coef.PNG)
 El armónico esférico es una función que devuelve un número complejo, pero en realidad solo importa su módulo.
 
