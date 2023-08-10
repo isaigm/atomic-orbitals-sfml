@@ -6,10 +6,6 @@
 #define WIDTH 600
 #define HEIGHT 600
 #define M_PI 3.141592653f
-/*
-    Gracias a Eddxample, sin su codigo hubiera tardado 10 años
-    en implementar esta m4dre
-*/
 double factorial(int n)
 {
     double p = 1;
